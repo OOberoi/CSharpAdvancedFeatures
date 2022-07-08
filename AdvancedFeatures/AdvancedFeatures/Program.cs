@@ -2,10 +2,11 @@
 
 Console.WriteLine("Hello, Obi! It's time to drill into some advanced features of C# 10.0");
 
-string[] arr = { "Obi", "Mark", "Erfan" };
-Array.Sort(arr);
+string[] names = { "Obi", "Mark", "Erfan" };
 
-foreach (var item in arr)
+Array.Sort(names);
+
+foreach (var item in names)
 {
     Console.WriteLine(item);
 }
