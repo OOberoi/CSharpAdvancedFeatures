@@ -11,7 +11,10 @@ foreach (var item in names)
     Console.WriteLine(item);
 }
 Console.WriteLine("Enter a package");
-string packages = Console.ReadLine();
-Console.WriteLine(packages);
+string[] packages = new string[5];
 
-
+for (int i = 0; i < packages.Length; i++)
+{ 
+    packages[i] = Console.ReadLine();
+    Console.WriteLine("You have entered: " + packages[i]);
+}
