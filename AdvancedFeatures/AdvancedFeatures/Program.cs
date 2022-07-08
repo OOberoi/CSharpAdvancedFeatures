@@ -10,5 +10,8 @@ foreach (var item in names)
 {
     Console.WriteLine(item);
 }
-Console.ReadLine();
+Console.WriteLine("Enter a package");
+string packages = Console.ReadLine();
+Console.WriteLine(packages);
+
 
