@@ -1,17 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("Hello, Obi! It's time to drill into some advanced features of C# 10.0");
+using System;
 
-string[] names = { "Obi", "Mark", "Erfan" };
 
-Array.Sort(names);
-
-foreach (var item in names)
-{
-    Console.WriteLine(item);
-}
-Console.WriteLine("Enter a package");
-string[] packages = new string[5];
+Console.WriteLine("Enter a list of packages delimitted by ','");
+string[] packages = new string[] { };
 
 for (int i = 0; i < packages.Length; i++)
 { 
