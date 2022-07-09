@@ -7,7 +7,7 @@ Console.WriteLine("Enter package(s) delimited by comma");
 string package = Console.ReadLine();
 Console.WriteLine("The package name(s) are: " + package);
 
-string[] arrCol = new string[5];
+string[] arrCol = new string[] { };
 
 if (package != null)
 {
