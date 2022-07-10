@@ -5,6 +5,10 @@ using System.Collections;
 // Get user input
 Console.WriteLine("Enter package(s) delimited by comma");
 string package = Console.ReadLine();
+if (package.Length == 0)
+{
+    Console.WriteLine("The value cannot be null! Please enter a package name.");
+}
 Console.WriteLine("The package name(s) are: " + package);
 
 string[] arrCol = new string[] { };
@@ -17,6 +21,10 @@ if (package != null)
     {
         Console.WriteLine(item);
     }
+}
+else
+{
+    Console.WriteLine("Packages cannot be blank!");
 }
 
 Console.ReadLine();
