@@ -10,7 +10,9 @@ if (package.Length == 0)
     Console.WriteLine("The value cannot be null! Please enter a package name.");
 }
 Console.WriteLine("The package name(s) are: " + package);
-
+/// <summary>
+/// dynamic array
+/// </summary>
 string[] arrCol = new string[] { };
 
 if (package != null)
@@ -26,5 +28,4 @@ else
 {
     Console.WriteLine("Packages cannot be blank!");
 }
-
 Console.ReadLine();
