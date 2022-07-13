@@ -11,7 +11,7 @@ if (package.Length == 0)
 }
 Console.WriteLine("The package name(s) are: " + package);
 /// <summary>
-/// dynamic array
+/// dynamic array to story any number of values
 /// </summary>
 string[] arrCol = new string[] { };
 
