@@ -4,7 +4,9 @@ using System.Collections;
 
 // Get user input
 Console.WriteLine("Enter package(s) delimited by comma");
+
 string package = Console.ReadLine();
+
 if (package.Length == 0)
 {
     Console.WriteLine("The value cannot be null! Please enter a package name.");
