@@ -7,7 +7,7 @@ Console.WriteLine("Enter package(s) delimited by comma");
 
 string package = Console.ReadLine();
 
-if (package.Length == 0)
+if (package != null)
 {
     Console.WriteLine("The value cannot be null! Please enter a package name.");
 }
