@@ -16,6 +16,9 @@ if (package != null)
     Console.WriteLine("The value cannot be null! Please enter a package name.");
 }
 Console.WriteLine("The package name(s) are: " + package);
+
+Console.WriteLine(clientId);
+
 /// <summary>
 /// dynamic array to story any number of values
 /// </summary>
