@@ -3,9 +3,8 @@
 using System.Collections;
 using System;
 
-// Get user input
+// Get package name
 Console.WriteLine("Enter package(s) delimited by comma");
-
 string package = Console.ReadLine();
 
 if (package != null)
