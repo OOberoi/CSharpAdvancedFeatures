@@ -9,6 +9,7 @@ string package = Console.ReadLine();
 
 // Get Client Id
 Console.WriteLine("Enter ClientID");
+string clientId = Console.ReadLine();
 
 if (package != null)
 {
