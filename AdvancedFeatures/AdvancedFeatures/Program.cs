@@ -7,6 +7,9 @@ using System;
 Console.WriteLine("Enter package(s) delimited by comma");
 string package = Console.ReadLine();
 
+// Get Client Id
+Console.WriteLine("Enter ClientID");
+
 if (package != null)
 {
     Console.WriteLine("The value cannot be null! Please enter a package name.");
