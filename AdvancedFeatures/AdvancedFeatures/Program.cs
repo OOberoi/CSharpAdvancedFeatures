@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using System.Collections;
+using System;
 
 // Get user input
 Console.WriteLine("Enter package(s) delimited by comma");
