@@ -18,7 +18,7 @@ if (package != null)
 Console.WriteLine("The package name(s) are: " + package);
 
 Console.WriteLine($"The Client Id is: {clientId}");
-
+ 
 /// <summary>
 /// dynamic array to story any number of values
 /// </summary>
