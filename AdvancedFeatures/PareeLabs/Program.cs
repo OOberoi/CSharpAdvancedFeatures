@@ -4,3 +4,4 @@
 DateTime birthDate = new DateTime(1975, 1, 11, 8, 38, 0);
 
 Console.WriteLine(birthDate);
+Console.ReadLine();
