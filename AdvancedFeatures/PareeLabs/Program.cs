@@ -13,3 +13,4 @@ Console.WriteLine($"Enter hours worked: {hours}" );
 Console.ReadLine();
 
 Console.WriteLine($"Enter you rate: {rate}");
+Console.ReadLine();
