@@ -3,7 +3,7 @@
 //DateTime types
 DateTime birthDate = new DateTime(1975, 1, 11, 8, 38, 0);
 double hours = 0;
-int rate;
+int rate = 0;
 
 
 Console.WriteLine($"Enter your birthdate:  { birthDate}");
@@ -12,3 +12,4 @@ Console.ReadLine();
 Console.WriteLine($"Enter hours worked: {hours}" );
 Console.ReadLine();
 
+Console.WriteLine($"Enter you rate: {rate}");
