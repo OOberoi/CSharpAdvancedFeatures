@@ -2,17 +2,19 @@
 
 //DateTime types
 DateTime birthDate = new DateTime(1975, 1, 11, 8, 38, 0);
-double hours;
-int rate;
+
+
 
 
 Console.WriteLine($"Enter your birthdate:  { birthDate}");
 Console.ReadLine();
 
-Console.WriteLine($"Enter hours worked: {hours}" );
-Console.ReadLine();
+Console.WriteLine("Enter hours worked: " );
+string hours = Console.ReadLine();
 
-Console.WriteLine($"Enter you rate: {rate}");
-Console.ReadLine();
+Console.WriteLine("Enter you rate:");
+string rate = Console.ReadLine();
 
-Console.WriteLine($"Your wages are: {hours * (Convert.ToDouble(rate)) }");
+double wages = Convert.ToDouble(Convert.ToDecimal(hours) * Convert.ToDecimal(rate));
+
+Console.WriteLine($"Your wages are: {wages}");
