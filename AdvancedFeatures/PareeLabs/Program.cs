@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using System.Globalization;
+
 //DateTime types
 DateTime birthDate = new DateTime(1975, 1, 11, 8, 38, 0);
 
@@ -17,4 +19,4 @@ string rate = Console.ReadLine();
 
 double wages = Convert.ToDouble(Convert.ToDecimal(hours) * Convert.ToDecimal(rate));
 
-Console.WriteLine($"Your wages are: {wages}");
+Console.WriteLine($"Your wages are: {wages.ToString("C", CultureInfo.CurrentCulture)}");
