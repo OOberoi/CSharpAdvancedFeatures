@@ -15,4 +15,4 @@ Console.ReadLine();
 Console.WriteLine($"Enter you rate: {rate}");
 Console.ReadLine();
 
-Console.WriteLine($"Your wages are {hours * rate }");
+Console.WriteLine($"Your wages are: {hours *(Convert.ToDouble(rate)) }");
