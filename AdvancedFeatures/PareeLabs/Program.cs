@@ -2,8 +2,8 @@
 
 //DateTime types
 DateTime birthDate = new DateTime(1975, 1, 11, 8, 38, 0);
-double hours = 0;
-int rate = 0;
+double hours;
+int rate;
 
 
 Console.WriteLine($"Enter your birthdate:  { birthDate}");
