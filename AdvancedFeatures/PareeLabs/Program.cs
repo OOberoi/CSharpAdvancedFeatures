@@ -17,6 +17,6 @@ string hours = Console.ReadLine();
 Console.WriteLine("Enter you rate:");
 string rate = Console.ReadLine();
 
-double wages = Convert.ToDouble(Convert.ToDecimal(hours) * Convert.ToDecimal(rate));
+double netWages = Convert.ToDouble(Convert.ToDecimal(hours) * Convert.ToDecimal(rate));
 
-Console.WriteLine($"Your wages are: {wages.ToString("C", CultureInfo.CurrentCulture)}");
+Console.WriteLine($"Your wages are: {netWages.ToString("C", CultureInfo.CurrentCulture)}");
