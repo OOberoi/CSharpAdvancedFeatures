@@ -62,7 +62,7 @@ jobs:
       Wap_Project_Path: AdvancedFeatures.App.Package\AdvancedFeatures.Package.wapproj                   # Replace with the path to your Wap project, i.e. MyWpf.App.Package\MyWpfApp.Package.wapproj.
 
     steps:
-    - name: Checkout
+    - name: Setup .NET
       uses: actions/checkout@v3
       with:
         fetch-depth: 0
@@ -82,8 +82,8 @@ jobs:
     #  run: dotnet test
 
     # Restore the application to populate the obj folder with RuntimeIdentifiers
-    - name: Restore the application
-      run: msbuild $env:Solution_Name /t:Restore /p:Configuration=$env:Configuration
+    - name: Restore dependencies
+      run: dotnet restore
       env:
         Configuration: ${{ matrix.configuration }}
 
