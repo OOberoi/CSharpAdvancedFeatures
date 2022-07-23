@@ -21,7 +21,8 @@ string expenses = Console.ReadLine();
 
 double netWages = Convert.ToDouble(Convert.ToDecimal(hours) * Convert.ToDecimal(rate));
 double grossWages = netWages * gstHst;
+double takeHomeSalary = grossWages - Convert.ToDouble(expenses);
 
 Console.WriteLine($"Your Net Wages are: {netWages.ToString("C", CultureInfo.CurrentCulture)}");
 Console.WriteLine($"Your Gross Wages are: {grossWages.ToString("C", CultureInfo.CurrentCulture)}");
-//Console.WriteLine($);
+Console.WriteLine($"Your total take home salary is {takeHomeSalary.ToString("C,", CultureInfo.CurrentCulture)}");
