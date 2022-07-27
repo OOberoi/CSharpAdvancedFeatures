@@ -10,7 +10,7 @@ DateTime birthDate = new DateTime(1975, 1, 11, 8, 38, 0);
 Console.WriteLine("Enter hours worked: " );
 string hours = Console.ReadLine();
 
-Console.WriteLine("Enter you rate:");
+Console.WriteLine("Enter you hourly rate:");
 string rate = Console.ReadLine();
 
 Console.WriteLine("Enter your expenses:");
