@@ -4,9 +4,6 @@ using System.Globalization;
 
 const double gstHst = 1.13;
 
-//DateTime types
-DateTime birthDate = new DateTime(1975, 1, 11, 8, 38, 0);
-
 Console.WriteLine("Enter hours worked: " );
 string hours = Console.ReadLine();
 
