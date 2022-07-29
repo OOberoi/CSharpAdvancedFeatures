@@ -5,7 +5,7 @@ using System.Globalization;
 const double gstHst = 1.13;
 
 Console.WriteLine("Enter hours worked: " );
-string hours = Console.ReadLine();
+string? hours = Console.ReadLine();
 
 Console.WriteLine("Enter you hourly rate:");
 string? rate = Console.ReadLine();
