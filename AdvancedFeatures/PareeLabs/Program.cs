@@ -11,7 +11,7 @@ Console.WriteLine("Enter you hourly rate:");
 string? rate = Console.ReadLine();
 
 Console.WriteLine("Enter your expenses:");
-string expenses = Console.ReadLine();   
+string? expenses = Console.ReadLine();   
 
 double netWages = Convert.ToDouble(Convert.ToDecimal(hours) * Convert.ToDecimal(rate));
 double grossWages = netWages * gstHst;
