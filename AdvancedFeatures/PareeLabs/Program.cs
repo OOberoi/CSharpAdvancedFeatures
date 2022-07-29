@@ -8,7 +8,7 @@ Console.WriteLine("Enter hours worked: " );
 string hours = Console.ReadLine();
 
 Console.WriteLine("Enter you hourly rate:");
-string rate = Console.ReadLine();
+string? rate = Console.ReadLine();
 
 Console.WriteLine("Enter your expenses:");
 string expenses = Console.ReadLine();   
