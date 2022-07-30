@@ -21,5 +21,5 @@ double gstRemittance = netWages * 0.0925;
 Console.WriteLine($"Your Net Wages are: {netWages.ToString("C", CultureInfo.CurrentCulture)}");
 Console.WriteLine($"Your Gross Wages are: {grossWages.ToString("C", CultureInfo.CurrentCulture)}");
 Console.WriteLine($"Your Total Take Home Salary is: {takeHomeSalary.ToString("C", CultureInfo.CurrentCulture)}");
-Console.WriteLine($"Your Total Remittance is: {gstRemittance.ToString("C", CultureInfo.CurrentCulture)}");
+Console.WriteLine($"Your Total GST/HST Remittance is: {gstRemittance.ToString("C", CultureInfo.CurrentCulture)}");
 Console.ReadLine();
