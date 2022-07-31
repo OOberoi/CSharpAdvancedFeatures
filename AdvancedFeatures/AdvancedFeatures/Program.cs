@@ -5,7 +5,7 @@ using System;
 
 // Get package name
 Console.WriteLine("Enter package(s) delimited by comma");
-string package = Console.ReadLine();
+string? package = Console.ReadLine();
 
 // Get Client Id
 Console.WriteLine("Enter ClientID");
