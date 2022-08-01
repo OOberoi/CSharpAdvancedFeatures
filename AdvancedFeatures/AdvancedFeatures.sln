@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedFeatures", "AdvancedFeatures\AdvancedFeatures.csproj", "{3EC13BF9-7FAD-4E89-98CF-E77E04136FFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PareeLabs", "PareeLabs\PareeLabs.csproj", "{992B4BAF-0B5C-4E1E-93FE-C2667BFD6839}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PareeLabs", "PareeLabs\PareeLabs.csproj", "{992B4BAF-0B5C-4E1E-93FE-C2667BFD6839}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{DF1F7E12-E7FE-4353-AF86-17D9F0ECC7F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{992B4BAF-0B5C-4E1E-93FE-C2667BFD6839}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{992B4BAF-0B5C-4E1E-93FE-C2667BFD6839}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{992B4BAF-0B5C-4E1E-93FE-C2667BFD6839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF1F7E12-E7FE-4353-AF86-17D9F0ECC7F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF1F7E12-E7FE-4353-AF86-17D9F0ECC7F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF1F7E12-E7FE-4353-AF86-17D9F0ECC7F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF1F7E12-E7FE-4353-AF86-17D9F0ECC7F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
