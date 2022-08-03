@@ -10,9 +10,12 @@ namespace UnitTests
         }
 
         [Test]
-        public void Test1()
+        public void Add()
         {
-            Assert.Pass();
+            int a = 5;
+            int b = 6;
+            int actual = 5 * 6;
+            Assert.AreEqual(30, actual);
         }
     }
 }
