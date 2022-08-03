@@ -17,5 +17,12 @@ namespace UnitTests
             int actual = 5 * 6;
             Assert.AreEqual(30, actual);
         }
+        public void Multiply()
+        {
+            int a = 10;
+            int b = 20;
+            int actual = a * b;
+            Assert.AreEqual(200, actual);
+        }
     }
 }
