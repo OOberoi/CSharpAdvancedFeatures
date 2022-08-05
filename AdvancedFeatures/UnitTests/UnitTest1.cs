@@ -24,5 +24,8 @@ namespace UnitTests
             int actual = a * b;
             Assert.AreEqual(200, actual);
         }
+        public void Subtract()
+        { 
+        }
     }
 }
