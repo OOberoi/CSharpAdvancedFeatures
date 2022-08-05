@@ -29,6 +29,7 @@ namespace UnitTests
             int a = 15;
             int b = 7;
             int actual = a - b;
+            Assert.AreEqual(8, actual);
         }
     }
 }
