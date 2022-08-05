@@ -25,7 +25,8 @@ namespace UnitTests
             Assert.AreEqual(200, actual);
         }
         public void Subtract()
-        { 
+        {
+            int a = 15;
         }
     }
 }
