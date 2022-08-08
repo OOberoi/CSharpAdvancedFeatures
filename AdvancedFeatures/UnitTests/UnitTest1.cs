@@ -32,6 +32,11 @@ namespace UnitTests
             Assert.AreEqual(8, actual);
         }
         public void Divide()
+        {
+            int a = 100;
+            
+            
 
+        }
     }
 }
