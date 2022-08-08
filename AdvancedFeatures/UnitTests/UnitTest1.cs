@@ -35,7 +35,7 @@ namespace UnitTests
         {
             int a = 100;
             int b = 5;
-            
+            int actual = a / b;
 
         }
     }
