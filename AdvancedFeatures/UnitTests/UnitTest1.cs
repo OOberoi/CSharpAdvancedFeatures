@@ -34,7 +34,7 @@ namespace UnitTests
         public void Divide()
         {
             int a = 100;
-            
+            int b = 5;
             
 
         }
