@@ -25,14 +25,7 @@ namespace UnitTests
             int actual = a * b;
             Assert.AreEqual(200, actual);
         }
-        [Test]
-        public void Subtract()
-        {
-            int a = 15;
-            int b = 7;
-            int actual = a - b;
-            Assert.AreEqual(8, actual);
-        }
+        
         [Test]  
         public void Divide()
         {
