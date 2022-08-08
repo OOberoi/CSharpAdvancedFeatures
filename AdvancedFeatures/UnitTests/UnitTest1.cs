@@ -31,5 +31,7 @@ namespace UnitTests
             int actual = a - b;
             Assert.AreEqual(8, actual);
         }
+        public void Divide()
+
     }
 }
