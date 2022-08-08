@@ -33,7 +33,7 @@ namespace UnitTests
             int actual = a - b;
             Assert.AreEqual(8, actual);
         }
-        [Test]
+        [Test]  
         public void Divide()
         {
             int a = 100;
