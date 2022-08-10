@@ -25,7 +25,8 @@ namespace UnitTests
             int actual = a * b;
             Assert.AreEqual(200, actual);
         }
-        
+
+        //Forcing a push to trigger GitHub Actions on Push
         [Test]  
         public void Divide()
         {
