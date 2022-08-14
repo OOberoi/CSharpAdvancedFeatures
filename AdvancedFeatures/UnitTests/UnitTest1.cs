@@ -13,7 +13,7 @@ namespace UnitTests
         public void Add()
         {
             int a = 5;
-            int b = 6;
+            int b = 6; 
             int actual = 5 * 6;
             Assert.AreEqual(30, actual);
         }
@@ -32,7 +32,7 @@ namespace UnitTests
         public void Divide()
         {
             int a = 100;
-            int b = 5;
+            int b = 25;
             int actual = a / b;
             Assert.AreEqual(20, actual);
         }
