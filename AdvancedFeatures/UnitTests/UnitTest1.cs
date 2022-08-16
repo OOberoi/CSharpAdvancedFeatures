@@ -17,6 +17,7 @@ namespace UnitTests
             int actual = 5 * 6;
             Assert.AreEqual(30, actual);
         }
+
         // Adding another comment to trigger a push
         [Test]
         public void Multiply()
