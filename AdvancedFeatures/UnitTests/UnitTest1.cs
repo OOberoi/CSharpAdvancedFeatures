@@ -18,6 +18,10 @@ namespace UnitTests
             Assert.AreEqual(30, actual);
         }
 
+        public void Subtract()
+        { 
+        }
+
         // Adding another comment to trigger a push
         [Test]
         public void Multiply()
