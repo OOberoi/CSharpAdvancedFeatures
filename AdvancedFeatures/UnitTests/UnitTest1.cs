@@ -22,7 +22,7 @@ namespace UnitTests
         {
             int a = 25;
             int b = 15;
-
+            int actual = 25 - 15;
         }
 
         // Adding another comment to trigger a push
