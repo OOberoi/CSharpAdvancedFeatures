@@ -23,6 +23,7 @@ namespace UnitTests
             int a = 25;
             int b = 15;
             int actual = 25 - 15;
+            Assert.AreEqual(10, actual);
         }
 
         // Adding another comment to trigger a push
