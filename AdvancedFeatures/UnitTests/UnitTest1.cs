@@ -21,6 +21,7 @@ namespace UnitTests
         public void Subtract()
         {
             int a = 25;
+            int b = 15;
 
         }
 
